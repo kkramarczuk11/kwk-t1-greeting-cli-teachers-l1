@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 puts greeting
-gets.strip = name
+name = gets.strip
 puts meet
+name = gets.strip
 # code your CLI here!
